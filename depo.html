@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <h1>Welcome User</h1>
+    <div class="container">
+        
+        <div class="row">
+            
+            <div class="col"> 
+                <h4 id="depo">Deposit</h4>
+                <table>
+
+                    <tr>
+                        <td>accno</td>
+                        <td><input type="text" id="acno"></td>
+                    </tr>
+
+                    <tr>
+                        <td>pin</td>
+                        <td><input type="text" id="pin"></td>
+                    </tr>
+                    <tr>
+                        <td>amount</td>
+                        <td><input type="text" id="amount"></td>
+                    </tr>
+                    <tr>
+                        <td><button type="button" class="btn btn-primary" onclick="Bank.deposit()" value="proceed">Proceed</button>
+                        </td></tr>
+
+                </table>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+</body>
+<script src="transaction2.js"></script>
+
+</html>
